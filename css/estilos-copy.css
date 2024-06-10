@@ -32,10 +32,6 @@
   background-attachment: fixed;
 }
 
-#colorazul {
-  color: blue;
-}
-
 img.listaordenada {
   background-color: rgba(20, 78, 172, 0.212);
 
@@ -44,7 +40,7 @@ img.listaordenada {
     padding: 0;
   }
 }
-
+/* pages de productos*/
 .photo-producto {
   display: flex;
   justify-content: center;
@@ -64,7 +60,7 @@ img.listaordenada {
   width: 80px;
   height: 80px;
 }
-
+/*global*/
 .redessociales {
   position: absolute;
   top: 800px;
@@ -73,16 +69,23 @@ img.listaordenada {
   z-index: -1;
   display: flex;
 justify-content: center;}
-
+/*ayuda*/
 .caja-item {
   border: 3px solid black;
   padding: 40px;
   display: flex;
   justify-content: center;
 }
-
+/*visitanos*/
 .mapa{
     height: 200px;
     display: flex;
 justify-content: center;
+}
+
+h1{
+  color: rgb(17, 99, 215);
+}
+h2{
+  color: rgb(17, 99, 215);
 }

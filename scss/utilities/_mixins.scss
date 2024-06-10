@@ -1,0 +1,28 @@
+@mixin size ($width, $height){
+width: $width;
+height: $height;
+}
+
+.ig-item {
+    @include size(80px, 80px);
+  }
+  
+  .tiktok-item {
+    @include size(80px, 80px);    
+}
+  .wsp-item {
+    @include size(80px, 80px);
+  }
+
+  @mixin caja-personalisada{
+    border: 3px solid black;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  }
+  .caja-item{
+    
+@include caja-personalisada();
+  
+}  
+  

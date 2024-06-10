@@ -1,0 +1,18 @@
+@mixin alineacion-productos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo-producto {
+    @include alineacion-productos();
+  }
+
+@mixin alineacion-mapa{
+      height: 200px;
+    display: flex;
+justify-content: center;
+}
+  .mapa{
+  @include alineacion-mapa();
+}
