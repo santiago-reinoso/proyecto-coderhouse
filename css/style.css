@@ -56,7 +56,7 @@
 }
 
 .fondo-pagina {
-  background: url(img/sneakers.jpg);
+  background: url(../img/sneakers.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
